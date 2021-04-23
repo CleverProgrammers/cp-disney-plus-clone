@@ -10,6 +10,8 @@ import {
   setSignOutState,
 } from "../features/user/userSlice";
 
+import Subscribe from './Subscribe';
+
 const Header = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
@@ -63,7 +65,10 @@ const Header = (props) => {
       </Logo>
 
       {!userName ? (
-        <Login onClick={handleAuth}>Login</Login>
+        <>
+         <Subscribe >Login</Subscribe>
+         <Login onClick={handleAuth}>Login</Login>
+        </>
       ) : (
         <>
           <NavMenu>
