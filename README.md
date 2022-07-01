@@ -1,4 +1,10 @@
-# Disney Plus Clone Readme
+# Disney Plus Clone Readme is created by clever programmer youtube channel
+hello disney
+
+
+hiii disney
+
+walt disney    
 
 ## <a href="https://disney-clone-d1e27.firebaseapp.com" target="_blank">LIVE DEMO</a>
 
